@@ -194,6 +194,19 @@
 	margin: 3px;
 }
 
+.mac-columns{
+	/* margin-top: 25px; */
+	display: inline-block;
+	width: 32%;
+	float: left;
+	text-align: left;
+	padding: 0px 10px;
+	font-size: 14px;
+}
+
+
+
+
 
 
 
