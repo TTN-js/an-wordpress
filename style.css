@@ -174,7 +174,7 @@
 	float: right;
 }
 
-#customer-header p a:hover{
+#customer-header p a:hover, .mac-columns a:hover{
 	color: #155F85;
 }
 
@@ -204,6 +204,19 @@
 	font-size: 14px;
 }
 
+.entry-footer{
+	margin-top: 50px;
+	width: 100%;
+	height: 500px;
+	background-color: #363636;
+}
+
+
+
+
+.post-edit-link, .site-info{
+	display: none;
+}
 
 
 

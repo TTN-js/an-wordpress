@@ -8,11 +8,11 @@ function enqueue_parent_styles() {
 
 
 //eyebrow menu fuctiontion
-// function register_my_menu() {
-//   register_nav_menu('eyebrow-menu',__( 'Eyebrow Menu' ));
-// }
-// add_action( 'init', 'register_my_menu' );
+function register_my_menu() {
+  register_nav_menu('eyebrow-menu',__( 'Eyebrow Menu' ));
+}
+add_action( 'init', 'register_my_menu' );
 
-// wp_nav_menu( array( 'theme_location' => 'eyebrow-menu', 'container_class' => 'site-header2' ) ); 
+wp_nav_menu( array( 'theme_location' => 'eyebrow-menu', 'container_class' => 'site-header2' ) ); 
 
 ?>
